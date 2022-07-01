@@ -1,0 +1,638 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af52a90cfaae583449f557608a367ea6, type: 3}
+  m_Name: LevelEditor
+  m_EditorClassIdentifier: 
+  difficulty:
+  - WhichDifficulty: Difficulty 1
+    speed: 1
+    Words:
+    - word: of
+    - word: to
+    - word: in
+    - word: it
+    - word: is
+    - word: be
+    - word: my
+    - word: at
+    - word: so
+    - word: we
+  - WhichDifficulty: Difficulty 2
+    speed: 0.9
+    Words:
+    - word: act
+    - word: add
+    - word: arm
+    - word: box
+    - word: buy
+    - word: cup
+    - word: die
+    - word: egg
+    - word: zoo
+    - word: fly
+    - word: joy
+    - word: pro
+    - word: row
+    - word: sky
+    - word: why
+  - WhichDifficulty: Difficulty 3
+    speed: 0.8
+    Words:
+    - word: nice
+    - word: cute
+    - word: loud
+    - word: zone
+    - word: wire
+    - word: warm
+    - word: view
+    - word: four
+    - word: once
+    - word: soul
+    - word: super
+    - word: easy
+    - word: coat
+    - word: bowl
+  - WhichDifficulty: Difficulty 4
+    speed: 0.7
+    Words:
+    - word: about
+    - word: ability
+    - word: against
+    - word: complex
+    - word: absolute
+    - word: positive
+    - word: profound
+    - word: software
+    - word: sweet
+    - word: great
+    - word: mouse
+    - word: happy
+    - word: vision
+    - word: united
+  - WhichDifficulty: Difficulty 5
+    speed: 0.6
+    Words:
+    - word: beautiful
+    - word: standard
+    - word: shipping
+    - word: judicial
+    - word: suburban
+    - word: average
+    - word: because
+    - word: essence
+    - word: fifteen
+  - WhichDifficulty: Difficulty 6
+    speed: 0.5
+    Words:
+    - word: queue
+    - word: iguana
+    - word: miaou
+    - word: automobile
+    - word: evacuation
+    - word: authorities
+    - word: aqueouse
+    - word: aerobic
+    - word: anaemia
+    - word: quoits
+    - word: league
+  - WhichDifficulty: Difficulty 7
+    speed: 0.4
+    Words:
+    - word: delicious
+    - word: wonderful
+    - word: business
+    - word: completion
+    - word: definitely
+    - word: reputation
+    - word: specialist
+    - word: exhibition
+    - word: photography
+  - WhichDifficulty: Difficulty 8
+    speed: 0.3
+    Words:
+    - word: psychology
+    - word: psychiatrist
+    - word: rhythm
+    - word: handkerchief
+    - word: indefatigable
+    - word: authentication
+    - word: symphysis
+    - word: biographical
+  - WhichDifficulty: Difficulty 9
+    speed: 0.3
+    Words:
+    - word: embezzlement
+    - word: lieutenant
+    - word: entrepreneurial
+    - word: stewardesses
+    - word: irregardless
+    - word: synchronization
+    - word: congratulations
+  - WhichDifficulty: Difficulty 10
+    speed: 0.3
+    Words:
+    - word: unadulterated
+    - word: obstinance
+    - word: conscientious
+  levelData:
+  - LevelName: Level 1
+    levelWords:
+    - item: 0
+      howManyWords: 4
+    - item: 1
+      howManyWords: 1
+  - LevelName: Level 2
+    levelWords:
+    - item: 0
+      howManyWords: 3
+    - item: 1
+      howManyWords: 1
+    - item: 2
+      howManyWords: 1
+  - LevelName: Level 3
+    levelWords:
+    - item: 0
+      howManyWords: 2
+    - item: 1
+      howManyWords: 1
+    - item: 2
+      howManyWords: 1
+    - item: 3
+      howManyWords: 1
+  - LevelName: Level 4
+    levelWords:
+    - item: 0
+      howManyWords: 2
+    - item: 1
+      howManyWords: 1
+    - item: 2
+      howManyWords: 1
+    - item: 3
+      howManyWords: 1
+    - item: 4
+      howManyWords: 1
+  - LevelName: Level 5
+    levelWords:
+    - item: 0
+      howManyWords: 2
+    - item: 1
+      howManyWords: 2
+    - item: 2
+      howManyWords: 1
+    - item: 3
+      howManyWords: 1
+    - item: 4
+      howManyWords: 1
+  - LevelName: Level 6
+    levelWords:
+    - item: 0
+      howManyWords: 2
+    - item: 1
+      howManyWords: 1
+    - item: 2
+      howManyWords: 1
+    - item: 3
+      howManyWords: 1
+    - item: 4
+      howManyWords: 1
+    - item: 5
+      howManyWords: 1
+  - LevelName: Level 7
+    levelWords:
+    - item: 0
+      howManyWords: 2
+    - item: 1
+      howManyWords: 1
+    - item: 2
+      howManyWords: 1
+    - item: 3
+      howManyWords: 1
+    - item: 4
+      howManyWords: 1
+    - item: 5
+      howManyWords: 1
+    - item: 6
+      howManyWords: 1
+  - LevelName: Level 8
+    levelWords:
+    - item: 0
+      howManyWords: 2
+    - item: 1
+      howManyWords: 1
+    - item: 2
+      howManyWords: 1
+    - item: 3
+      howManyWords: 1
+    - item: 5
+      howManyWords: 1
+    - item: 6
+      howManyWords: 1
+    - item: 7
+      howManyWords: 1
+  - LevelName: Level 9
+    levelWords:
+    - item: 0
+      howManyWords: 2
+    - item: 1
+      howManyWords: 2
+    - item: 2
+      howManyWords: 1
+    - item: 3
+      howManyWords: 1
+    - item: 6
+      howManyWords: 1
+    - item: 7
+      howManyWords: 1
+    - item: 8
+      howManyWords: 1
+  - LevelName: Level 10
+    levelWords:
+    - item: 0
+      howManyWords: 2
+    - item: 1
+      howManyWords: 2
+    - item: 2
+      howManyWords: 2
+    - item: 3
+      howManyWords: 1
+    - item: 7
+      howManyWords: 1
+    - item: 8
+      howManyWords: 1
+  - LevelName: Level 11
+    levelWords:
+    - item: 0
+      howManyWords: 2
+    - item: 1
+      howManyWords: 2
+    - item: 2
+      howManyWords: 2
+    - item: 3
+      howManyWords: 2
+    - item: 4
+      howManyWords: 1
+    - item: 8
+      howManyWords: 1
+  - LevelName: Level 12
+    levelWords:
+    - item: 0
+      howManyWords: 2
+    - item: 1
+      howManyWords: 2
+    - item: 2
+      howManyWords: 2
+    - item: 3
+      howManyWords: 2
+    - item: 4
+      howManyWords: 2
+  - LevelName: Level 13
+    levelWords:
+    - item: 0
+      howManyWords: 2
+    - item: 1
+      howManyWords: 2
+    - item: 2
+      howManyWords: 2
+    - item: 3
+      howManyWords: 2
+    - item: 4
+      howManyWords: 1
+    - item: 5
+      howManyWords: 2
+  - LevelName: Level 14
+    levelWords:
+    - item: 0
+      howManyWords: 2
+    - item: 1
+      howManyWords: 2
+    - item: 2
+      howManyWords: 1
+    - item: 3
+      howManyWords: 2
+    - item: 4
+      howManyWords: 2
+    - item: 6
+      howManyWords: 2
+  - LevelName: Level 15
+    levelWords:
+    - item: 0
+      howManyWords: 2
+    - item: 1
+      howManyWords: 2
+    - item: 2
+      howManyWords: 2
+    - item: 3
+      howManyWords: 1
+    - item: 4
+      howManyWords: 2
+    - item: 5
+      howManyWords: 2
+    - item: 7
+      howManyWords: 1
+  - LevelName: Level 16
+    levelWords:
+    - item: 0
+      howManyWords: 2
+    - item: 1
+      howManyWords: 2
+    - item: 2
+      howManyWords: 2
+    - item: 3
+      howManyWords: 1
+    - item: 4
+      howManyWords: 1
+    - item: 5
+      howManyWords: 2
+    - item: 6
+      howManyWords: 1
+    - item: 8
+      howManyWords: 1
+  - LevelName: Level 17
+    levelWords:
+    - item: 0
+      howManyWords: 2
+    - item: 1
+      howManyWords: 2
+    - item: 2
+      howManyWords: 2
+    - item: 3
+      howManyWords: 2
+    - item: 4
+      howManyWords: 1
+    - item: 5
+      howManyWords: 1
+    - item: 6
+      howManyWords: 1
+    - item: 7
+      howManyWords: 1
+    - item: 9
+      howManyWords: 1
+  - LevelName: Level 18
+    levelWords:
+    - item: 0
+      howManyWords: 2
+    - item: 1
+      howManyWords: 2
+    - item: 2
+      howManyWords: 2
+    - item: 3
+      howManyWords: 1
+    - item: 4
+      howManyWords: 2
+    - item: 5
+      howManyWords: 1
+    - item: 6
+      howManyWords: 1
+    - item: 7
+      howManyWords: 1
+    - item: 8
+      howManyWords: 1
+  - LevelName: Level 19
+    levelWords:
+    - item: 0
+      howManyWords: 2
+    - item: 1
+      howManyWords: 2
+    - item: 2
+      howManyWords: 2
+    - item: 3
+      howManyWords: 2
+    - item: 4
+      howManyWords: 1
+    - item: 5
+      howManyWords: 1
+    - item: 6
+      howManyWords: 1
+    - item: 7
+      howManyWords: 1
+    - item: 8
+      howManyWords: 1
+    - item: 9
+      howManyWords: 1
+  - LevelName: Level 20
+    levelWords:
+    - item: 0
+      howManyWords: 2
+    - item: 1
+      howManyWords: 2
+    - item: 2
+      howManyWords: 2
+    - item: 3
+      howManyWords: 2
+    - item: 4
+      howManyWords: 2
+    - item: 5
+      howManyWords: 1
+    - item: 6
+      howManyWords: 1
+    - item: 7
+      howManyWords: 1
+    - item: 9
+      howManyWords: 1
+  - LevelName: Level 21
+    levelWords:
+    - item: 0
+      howManyWords: 4
+    - item: 1
+      howManyWords: 1
+    - item: 2
+      howManyWords: 2
+    - item: 3
+      howManyWords: 2
+    - item: 4
+      howManyWords: 2
+    - item: 5
+      howManyWords: 1
+    - item: 6
+      howManyWords: 1
+    - item: 7
+      howManyWords: 1
+    - item: 8
+      howManyWords: 1
+  - LevelName: Level 22
+    levelWords:
+    - item: 0
+      howManyWords: 4
+    - item: 1
+      howManyWords: 2
+    - item: 3
+      howManyWords: 1
+    - item: 4
+      howManyWords: 2
+    - item: 5
+      howManyWords: 2
+    - item: 6
+      howManyWords: 1
+    - item: 7
+      howManyWords: 1
+    - item: 8
+      howManyWords: 1
+    - item: 9
+      howManyWords: 1
+  - LevelName: Level 23
+    levelWords:
+    - item: 0
+      howManyWords: 4
+    - item: 1
+      howManyWords: 2
+    - item: 2
+      howManyWords: 2
+    - item: 4
+      howManyWords: 1
+    - item: 5
+      howManyWords: 2
+    - item: 6
+      howManyWords: 2
+    - item: 7
+      howManyWords: 1
+    - item: 8
+      howManyWords: 1
+    - item: 9
+      howManyWords: 1
+  - LevelName: Level 24
+    levelWords:
+    - item: 0
+      howManyWords: 4
+    - item: 1
+      howManyWords: 4
+    - item: 2
+      howManyWords: 1
+    - item: 3
+      howManyWords: 1
+    - item: 5
+      howManyWords: 1
+    - item: 6
+      howManyWords: 2
+    - item: 7
+      howManyWords: 1
+    - item: 8
+      howManyWords: 1
+    - item: 9
+      howManyWords: 1
+  - LevelName: Level 25
+    levelWords:
+    - item: 0
+      howManyWords: 4
+    - item: 1
+      howManyWords: 3
+    - item: 2
+      howManyWords: 3
+    - item: 3
+      howManyWords: 1
+    - item: 4
+      howManyWords: 1
+    - item: 6
+      howManyWords: 1
+    - item: 7
+      howManyWords: 2
+    - item: 8
+      howManyWords: 1
+    - item: 9
+      howManyWords: 1
+  - LevelName: Level 26
+    levelWords:
+    - item: 0
+      howManyWords: 4
+    - item: 1
+      howManyWords: 4
+    - item: 2
+      howManyWords: 2
+    - item: 3
+      howManyWords: 2
+    - item: 4
+      howManyWords: 1
+    - item: 5
+      howManyWords: 1
+    - item: 7
+      howManyWords: 1
+    - item: 8
+      howManyWords: 1
+    - item: 9
+      howManyWords: 1
+  - LevelName: Level 27
+    levelWords:
+    - item: 0
+      howManyWords: 4
+    - item: 1
+      howManyWords: 3
+    - item: 2
+      howManyWords: 4
+    - item: 3
+      howManyWords: 2
+    - item: 4
+      howManyWords: 2
+    - item: 5
+      howManyWords: 1
+    - item: 6
+      howManyWords: 1
+    - item: 9
+      howManyWords: 1
+  - LevelName: Level 28
+    levelWords:
+    - item: 0
+      howManyWords: 4
+    - item: 1
+      howManyWords: 3
+    - item: 2
+      howManyWords: 3
+    - item: 3
+      howManyWords: 3
+    - item: 4
+      howManyWords: 3
+    - item: 5
+      howManyWords: 1
+    - item: 6
+      howManyWords: 1
+    - item: 7
+      howManyWords: 1
+  - LevelName: Level 29
+    levelWords:
+    - item: 0
+      howManyWords: 4
+    - item: 1
+      howManyWords: 2
+    - item: 2
+      howManyWords: 2
+    - item: 3
+      howManyWords: 3
+    - item: 4
+      howManyWords: 3
+    - item: 5
+      howManyWords: 2
+    - item: 6
+      howManyWords: 1
+    - item: 7
+      howManyWords: 1
+    - item: 8
+      howManyWords: 1
+  - LevelName: Level 30
+    levelWords:
+    - item: 0
+      howManyWords: 4
+    - item: 1
+      howManyWords: 3
+    - item: 2
+      howManyWords: 1
+    - item: 3
+      howManyWords: 1
+    - item: 4
+      howManyWords: 2
+    - item: 5
+      howManyWords: 3
+    - item: 6
+      howManyWords: 2
+    - item: 7
+      howManyWords: 1
+    - item: 8
+      howManyWords: 1
+    - item: 9
+      howManyWords: 1
